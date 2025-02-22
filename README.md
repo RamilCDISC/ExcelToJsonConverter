@@ -1,6 +1,5 @@
 # ExcelToJsonConverter
 Converts CDISC Rules Engine Excel datasets to JSON for TEST command
-# ExcelToJsonConverter
 
 ## Introduction
 The `ExcelToJsonConverter` is a Python script designed to convert CDISC Rules Engine Excel datasets into JSON format. This tool is particularly useful for preparing datasets for the TEST command.
@@ -25,14 +24,14 @@ The rules directory should contain subfolders, each named after a specific rule 
 ```
 rules_directory/
 ├── rule1/
-│   ├── rule_file1.xlsx
-│   └── rule_file2.xlsx
+│   ├── rule_file1.json
+│   └── rule_file2.json
 ├── rule2/
-│   ├── rule_file1.xlsx
-│   └── rule_file2.xlsx
+│   ├── rule_file1.json
+│   └── rule_file2.json
 └── rule3/
-    ├── rule_file1.xlsx
-    └── rule_file2.xlsx
+    ├── rule_file1.json
+    └── rule_file2.json
 
 ```
 
